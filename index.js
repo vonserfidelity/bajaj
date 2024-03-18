@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-app.post('/bfhl', (req, res) => {
+app.post('https://bfhl-2kaz.onrender.com/bfhl', (req, res) => {
   const data = req.body.data;
   const userId = `vaibhav`;
   const email = `vaibhav1862.be21@chitkara.edu.in`;
