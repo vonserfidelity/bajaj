@@ -5,7 +5,7 @@ const app = express();
 app.use(bodyParser.json()); 
 
 app.post('/bfhl', (req, res) => {
-  const data = req.body.data;
+  const data = req.body;
   const userId = `vaibhav`;
   const email = `vaibhav1862.be21@chitkara.edu.in`;
   const rollNumber = `2110991862`;
